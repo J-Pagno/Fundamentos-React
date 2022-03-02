@@ -6,6 +6,7 @@ import ComParametro from "./components/basics/ComParamentro";
 import Fragmento from "./components/basics/Fragmento";
 import Aleatorio from "./components/basics/Aleatorio";
 import Card from "./components/layout/Card";
+import Familia from './components/basics/Family'
 
 //Quando o export for DEFAULT, pode-se retornar uma funcção anonima (xxx xxx function(){}).
 // Também é possível substituir a palavra "Function" por uma arrow function "=>". Na sintaxe da arrow f, é permitido retirar os parenteses do parâmetro.
@@ -14,6 +15,10 @@ export default (_) => (
   <div className="App">
     <h1>Fundamentos de React</h1>
     <div className="Cards">
+
+      <Card titulo="Título" color="green">
+        <Familia sobrenome="Ferreira"/>
+      </Card>
 
       <Card titulo="Título" color="green">
         <Aleatorio min={5} max={10} />
