@@ -1,0 +1,20 @@
+.inputSumVal input{
+    font-size: 1.3rem;
+    border-color: transparent;
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+
+.inputSumVal input:focus{
+    border-color: transparent;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
